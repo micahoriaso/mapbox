@@ -1,4 +1,4 @@
-import { SemanticICONS, SemanticCOLORS } from 'semantic-ui-react'
+import { SemanticICONS, SemanticCOLORS } from "semantic-ui-react";
 
 export interface LocationResource {
   type: string;
@@ -42,7 +42,7 @@ export interface LocationData {
 }
 
 export interface Filters {
-  [key: string]: Array<string>
+  [key: string]: Array<string>;
 }
 
 export interface ViewPort {
@@ -51,7 +51,7 @@ export interface ViewPort {
   zoom: number;
 }
 
-export interface IconResource  {
+export interface IconResource {
   icon: SemanticICONS;
   color: SemanticCOLORS;
 }
